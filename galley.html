@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('background-image.jpg');
+            /* Replace 'background-image.jpg' with the path to your desired image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #f5f5f5;
+        }
+
+        .main-plans {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .plan-container {
+            width: 100%;
+            max-width: 275px;
+            /* Decrease the max-width to allow four cards in a row */
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .plan-container:hover {
+            transform: translateY(-5px);
+        }
+
+        .inner-box {
+            margin-bottom: 20px;
+        }
+
+        .inner-box img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .inner-box h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .inner-box p {
+            margin-bottom: 10px;
+            color: #777;
+        }
+
+        .inner-box h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .inner-box a {
+            display: inline-block;
+            padding: 8px 16px;
+            background-color: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .inner-box a:hover {
+            background-color: #45a049;
+        }
+
+        .heading-yellow {
+            color: #ffc107;
+        }
+
+        .yellow-section {
+            color: #ffc107;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .btn-yellow {
+            background-color: #ffc107;
+        }
+
+        .btn-yellow:hover {
+            background-color: #ffbc42;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Our Pricing Plans</h1>
+
+    <div class="main-plans">
+        <div class="plan-container">
+            <div class="inner-box">
+                <img src="images/swift.jpeg" alt="">
+                <h5>comfortable hatchbacks at pocket-friendly fares</h5>
+                <h2>Swift Space Cab</h2>
+                <p>The Swift Space Cab is a versatile and compact cab that offers ample space and seating capacity for a
+                    comfortable ride, making it an ideal choice for both city commutes and small group travel.</p>
+                <h3>Rs.200</h3>
+                <a href="payment.html" target="_blank" rel="noopener noreferrer">Order Now</a>
+            </div>
+        </div>
+        <div class="plan-container">
+            <div class="inner-box">
+                <img src="images/auto.jpeg" alt="">
+                <h5>Get an Auto at your Door-step.</h5>
+                <h2>Auto</h2>
+                <p> It offers a cost-effective alternative to larger taxis or private cars, especially for
+                    short-distance journeys or when traveling alone or in small groups.</p>
+                <h3>Rs.80</h3>
+                <a href="payment.html" target="_blank" rel="noopener noreferrer">Order Now</a>
+            </div>
+        </div>
+        <div class="plan-container">
+            <div class="inner-box">
+                <img src="images/hoda city.jpg" alt="">
+                <h2 class="heading-yellow">Honda City</h2>
+                <p>The Honda City Cab is a spacious and comfortable option for passengers seeking a reliable and roomy
+                    cab service. With its generous interior space and comfortable seating, it can accommodate up to five
+                    passengers comfortably,</p>
+                <h3 class="yellow-section">Rs.300</h3>
+                <a href="payment.html" target="_blank" rel="noopener noreferrer" class="btn-yellow">Order Now</a>
+            </div>
+        </div>
+
+        <div class="plan-container">
+            <div class="inner-box">
+                <img src="images/suv.jpeg" alt="">
+                <br>
+                <h2>SUV Class Cab</h2>
+                <p>The SUV Class cab offers ample space and versatility.An excellent choice for families or groups
+                    traveling together or for those needing extra storage capacity.</p>
+                <h3>Rs.450</h3>
+                <a href="payment.html" target="_blank" rel="noopener noreferrer">Order Now</a>
+            </div>
+        </div>
+        <div class="plan-container">
+            <div class="inner-box">
+                <img src="images/van.jpeg" alt="">
+                <h2>Mini Bus Cab</h2>
+                <p>The Van/Minibus Class cab provides a spacious and versatile option for larger groups.Perfect for
+                    group outings, airport transfers, or events requiring transportation for multiple people.</p>
+                <h3>Rs.500</h3>
+                <a href="payment.html" target="_blank" rel="noopener noreferrer">Order Now</a>
+            </div>
+        </div>
+        <div class="plan-container">
+            <div class="inner-box">
+                <img src="images/seda.jpg" alt="">
+                <br>
+                <h2>Sedan Cab</h2>
+                <p>A spacious and reliable SUV cab perfect for family trips and group tours. Provides ample space for
+                    luggage and comfortable seating.</p>
+                <h3>Rs.550</h3>
+                <a href="payment.html" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
